@@ -23,14 +23,14 @@
 ## 项目结构
 
 ```
-├── README.md               # 项目说明
-├── report.md               # 完整实验报告（含双语分析）
-├── 实验报告_波士顿房价预测.docx  # Word 版报告
 ├── .gitignore
+├── README.md                    # 项目说明
+├── 报告.md                      # 完整实验报告（含双语分析）
+├── 实验报告_波士顿房价预测.docx  # Word 版报告
 ├── code/
-│   ├── main.py             # 一键运行代码（6 个 Scikit-learn 模型 + PaddlePaddle 风格）
-│   └── requirements.txt    # 依赖清单
-└── output/                 # 生成的可视化结果
+│   ├── main.py                  # 一键运行代码（6 个 Scikit-learn 模型 + PaddlePaddle 风格）
+│   └── requirements.txt         # 依赖清单
+└── output/                      # 生成的可视化结果
     ├── 01_房价分布直方图.png      # EDA：目标变量分布
     ├── 02_相关性热力图.png         # 特征相关性矩阵
     ├── 03_重要特征散点图.png       # Top-4 特征 vs 房价
@@ -71,7 +71,4 @@ python main.py
 4. 输出最优模型及特征重要性
 5. 生成全部可视化结果至 `output/` 目录
 
-## 参考来源
 
-- [healthjian 博客 — 波士顿房价预测报告](https://healthjian.github.io/pages/blog/tech/machinelearningBostonshouseprices.html)
-- [PaddlePaddle 官方教程 — 使用线性回归预测波士顿房价](https://www.paddlepaddle.org.cn/documentation/docs/zh/3.1/practices/quick_start/linear_regression.html)
